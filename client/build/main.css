@@ -1,0 +1,35 @@
+body {
+  font-family: "Helvetica";
+}
+
+#app {
+  padding-left: 30px;
+  width: 40%;
+}
+
+.film {
+  background-color: #E2E4EC;
+  margin: 10px 0 5px 0;
+  padding: 10px;
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.film:nth-child(even) {
+  background-color: #cbcdd4;
+}
+
+.film:hover {
+  background-color: #7b7e89;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transform: scale(1.1, 1.1);
+}
+
+h4 {
+  margin: 0 0 10px 0;
+}
+
+input { 
+  font-size: 16px;
+  padding: 3px;
+  margin: 0 5px 0 0;
+}
